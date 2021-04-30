@@ -36,3 +36,10 @@ def find_a(array)
     word[0] == "a"
   end
 end
+
+def sum_array(array)
+  sum = 0
+  array.each do |addend|
+    sum = sum + addend
+  end
+end
